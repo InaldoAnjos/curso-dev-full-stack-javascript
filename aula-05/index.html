@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários Avançados</title>
+</head>
+<body>
+    <form method="GET" action="#">
+        <div>
+            <label>Fale sobre você:</label>
+            <textarea name="detalheSobreVoce" rows="3">            
+            </textarea>
+        </div>
+        <div>
+            <label>Alunos:</label>
+            <select name="aluno">
+                <option>Escolha um aluno</option>
+                <option value="alexandre">Alexandre França do Amaral Lima</option>
+                <option selected value="anderson">Anderson Alexandre</option>
+                <option value="antonio">Antonio Júnior</option>
+            </select>
+        </div>
+        <div>
+            <h4>Escolha seus pratos favoritos:</h4>
+            <label>Lasanha:</label>
+            <input type="checkbox" name="comidaFavorita" value="lasanha" />
+            <label>Cuscui:</label>
+            <input type="checkbox" name="comidaFavorita" value="cuscuz" />
+            <label>Bolo de cenoura:</label>
+            <input type="checkbox" name="comidaFavorita" value="boloDeCenoura" />
+        </div>
+        <div>
+            <h4>Escolha seu genêro</h4>
+            <div>
+                <label>Masculino</label>
+                <input type="radio" name="genero" value="Masculino" />
+            </div>
+            <div>
+                <label>Feminino</label>
+                <input type="radio" name="genero" value="Feminino" />
+            </div>
+            <div>
+                <label>Outro</label>
+                <input type="radio" name="genero" value="Outro" />
+            </div>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
