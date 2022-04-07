@@ -34,3 +34,6 @@ button:hover {
     background-color: blueviolet;
     padding: 10px 0 0 50px;
 }
+.card:hover {
+    background-color: blue;
+}
