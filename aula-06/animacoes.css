@@ -1,0 +1,9 @@
+@keyframes brunetxi {
+    0% { opacity: 0%; }
+    25% { transform: translateX(-20px) translateY(-20px) translateZ(-20px); opacity: 100%; }
+    100% { opacity: 0%; }
+}
+
+.brunetxi {
+    animation: brunetxi 3s infinite;
+}
