@@ -2,9 +2,11 @@
     background-color: bisque;
     width: 50%;
     display: block;
+    float: left;
 }
 .box-2 {
     background-color: blueviolet;
     width: 50%;
     display: block;
+    float: right;
 }
