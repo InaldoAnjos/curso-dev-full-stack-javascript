@@ -1,3 +1,20 @@
+html, body, div, span, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, b, u, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, tbody, tfoot, thead, tr, th, td,
+article, footer, header {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 .box-1 {
     background-color: bisque;
     width: 50%;
@@ -9,4 +26,9 @@
     width: 50%;
     display: block;
     float: right;
+}
+.big-box {
+    background-color: darkgoldenrod;
+    width: 50vw;
+    height: 100vh;
 }

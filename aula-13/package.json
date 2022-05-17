@@ -1,0 +1,25 @@
+{
+  "name": "aula-13",
+  "version": "1.0.0",
+  "description": "Aula de introdução ao NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielCavalcante/curso-dev-full-stack-javascript.git"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "Daniel Cavalcante",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielCavalcante/curso-dev-full-stack-javascript/issues"
+  },
+  "homepage": "https://github.com/DanielCavalcante/curso-dev-full-stack-javascript#readme",
+  "dependencies": {
+    "moment": "2.29.3"
+  }
+}
