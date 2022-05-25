@@ -37,4 +37,6 @@ let variasCoisas = [
     "Xuxinha", 
     "Nena"
 ]
+// Criaram uma variável que armazene os nomes dos integrantes
+// do seu grupo do projeto integrador
 console.log(variasCoisas)
