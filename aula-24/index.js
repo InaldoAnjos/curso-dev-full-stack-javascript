@@ -1,14 +1,17 @@
 const express = require('express')
-const moment = require('moment')
 const app = express()
 const port = 3000
+
+app.use(express.json())
+app.use(express.urlencoded({ extended: false }))
 
 app.get('/', (req, res) => {
     res.send('Hello, Xuxinha')
 })
 
-app.get('/sobre', (req, res) => {
-    res.send('Sobre Logos Academy')
+app.post('/', (req, res) => {
+    console.log(req)
+    res.status(201).send(req.body)
 })
 
 app.listen(port, () => {
