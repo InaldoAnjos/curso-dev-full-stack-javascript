@@ -1,0 +1,18 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = "mysql://yxrdrslnldvrzszd:jca4y2gnmcybpr4t@r98du2bxwqkq3shg.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/km58fa9n4pkw70ub"
+}
+
+model usuarios {
+  id              Int       @id @default(autoincrement())
+  nome_completo   String    @db.VarChar(150)
+  email           String?   @unique(map: "email") @db.VarChar(60)
+  senha           String?   @db.VarChar(32)
+  telefone        String?   @db.VarChar(16)
+  cpf             String?   @unique(map: "cpf") @db.VarChar(11)
+  data_nascimento DateTime? @db.Date
+}
